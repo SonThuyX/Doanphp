@@ -1,0 +1,115 @@
+.review-section {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background: linear-gradient(135deg, #ffffff, #f5f7fa);
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 1px solid #eee;
+}
+
+.review-section h2 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.review-section .product-info {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.review-section .product-info h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 0;
+}
+
+.review-section .rating {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.review-section .rating .rating-group {
+    display: flex;
+    flex-direction: row; /* Từ trái sang phải */
+}
+
+.review-section .rating input[type="radio"] {
+    display: none; /* Ẩn input radio */
+}
+
+.review-section .rating label {
+    margin: 0 5px;
+    font-size: 1.5rem;
+    color: #ddd; /* Màu mặc định của sao (xám) */
+    cursor: pointer;
+}
+
+.review-section .rating label i {
+    transition: color 0.3s; /* Hiệu ứng chuyển màu mượt mà */
+}
+
+.review-section textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    resize: vertical;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.review-section button {
+    width: 100%;
+    padding: 12px;
+    background: #ff4500;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(255, 69, 0, 0.3);
+}
+
+.review-section button:hover {
+    background: #e03e00;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(255, 69, 0, 0.4);
+}
+
+.review-section .back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.review-section .back-button:hover {
+    background: #2980b9;
+    transform: translateY(-2px);
+}
+
+.product-info img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+}
